@@ -1,4 +1,5 @@
-import { PropsWithChildren, useEffect, useRef, useState } from 'react'
+import type { PropsWithChildren } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 function HorizontalScroll({ children }: PropsWithChildren) {
   const ref = useRef<HTMLDivElement>(null)
